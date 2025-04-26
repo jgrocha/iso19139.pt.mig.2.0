@@ -30,6 +30,7 @@ import org.fao.geonet.kernel.schema.*;
 import org.fao.geonet.schema.iso19139.ISO19139Namespaces;
 import org.fao.geonet.utils.Log;
 import org.fao.geonet.utils.Xml;
+import org.jdom.Attribute;
 import org.jdom.Element;
 import org.jdom.JDOMException;
 import org.jdom.Namespace;
@@ -143,6 +144,31 @@ public class ISO19139PTMIG20SchemaPlugin
         return child;
     }
 
+    @Override
+    public boolean duplicateElementsForMultilingual() {
+        return false;
+    }
+
+    @Override
+    public List<String> getMetadataLanguages(Element metadata) {
+        try {
+            return Xml.selectNodes(metadata, ".//gmd:locale/gmd:PT_Locale/@id", allNamespaces.asList())
+                .stream()
+                .filter(Attribute.class::isInstance)
+                .map(node -> ((Attribute)node).getValue())
+                .filter(s -> s != null && !s.isBlank())
+                .collect(Collectors.toList());
+        } catch (JDOMException ignored) {
+        }
+        return Collections.emptyList();
+    }
+
+    @Override
+    public boolean isMultilingualElementType(String elementType) {
+        // Not required in ISO schemas, only required for schemas where duplicateElementsForMultilingual returns true.
+        return false;
+    }
+    
     @Override
     public Set<String> getAssociatedParentUUIDs(Element metadata) {
         return getAssociatedParents(metadata)
