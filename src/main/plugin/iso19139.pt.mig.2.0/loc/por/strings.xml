@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (C) 2001-2016 Food and Agriculture Organization of the
+  ~ United Nations (FAO-UN), United Nations World Food Programme (WFP)
+  ~ and United Nations Environment Programme (UNEP)
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or (at
+  ~ your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful, but
+  ~ WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+  ~ General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
+  ~
+  ~ Contact: Jeroen Ticheler - FAO - Viale delle Terme di Caracalla 2,
+  ~ Rome - Italy. email: geonetwork@osgeo.org
+  -->
+
+<strings>
+  <understandResource>informação sobre conjunto de dados</understandResource>
+  <relatedResources>serviços relacionados e dados ligados</relatedResources>
+  <techInfo>informação técnica</techInfo>
+  <contactInfo>contacto de informação</contactInfo>
+  <mdContactInfo>contacto dos metadados</mdContactInfo>
+  <refDate>data de referência</refDate>
+  <temporalRef>informação temporal</temporalRef>
+  <constraintInfo>Aceder informação restrita</constraintInfo>
+  <xml_iso19139>salvar metadados como ficheiro ISO19139 XML</xml_iso19139>
+  <xml_iso19139Tooai_dc>salvar metadados como ficheiro OAI Dublin Core XML</xml_iso19139Tooai_dc>
+
+  <!-- New strings added for the AngularJS editor -->
+  <!-- View and tabs -->
+  <mig>Perfil MIG</mig>
+  <advanced>Completo</advanced>
+  <default>Simples</default>  
+  <inspire>INSPIRE</inspire>
+  <inspire_sds>SDS</inspire_sds>
+
+  <keywordFrom>palavras-chaves - </keywordFrom>
+  <resource>Recurso</resource>
+  <xml>XML</xml>
+  <metadata>Metadados</metadata>
+  <identificationInfo>Identificação</identificationInfo>  
+  <distributionInfo>Distribuição</distributionInfo>
+  <dataQualityInfo>Qualidade</dataQualityInfo>
+  <spatialRepresentationInfo>Rep. espacial</spatialRepresentationInfo>
+  <referenceSystemInfo>Sistema de Referência</referenceSystemInfo>
+  <contentInfo>Conteúdo</contentInfo>
+  <portrayalCatalogueInfo>Representação</portrayalCatalogueInfo>
+  <metadataConstraints>Restrições dos metadados</metadataConstraints>
+  <metadataMaintenance>Manutenção dos metadados</metadataMaintenance>
+  <applicationSchemaInfo>Informações do esquema</applicationSchemaInfo>
+  <noThesaurusName>palavra-chave</noThesaurusName>
+  <bboxesSection>cobertura geográfica</bboxesSection>
+  <overviews>overviews</overviews>
+  <metadataInXML>XML</metadataInXML>
+  <providedBy>fornecido por</providedBy>
+  <shareOnSocialSite>partilhar em redes sociais</shareOnSocialSite>
+  <viewMode>Views</viewMode>
+  <linkToPortal>Acesso ao portal</linkToPortal>
+  <linkToPortal-help>leia aqui todos os detalhes e aceda aos dados.</linkToPortal-help>
+  <citationProposal>proposta de citação</citationProposal>
+  <citationProposal-help>esta proposta foi gerada automaticamente, verefique se os autores de metadados não especificaram requesitos de citação personalizados.</citationProposal-help>
+  <associatedResources>recursos associados</associatedResources>
+
+  <!-- XSD error translation -->
+  <invalidElement>elementos inválidos. conteúdo inválido foi encontrado começando com elementos:</invalidElement>
+  <onElementOf>um dos seguintes elementos</onElementOf>
+  <isExpected>é esperado.</isExpected>
+  <isNotComplete>não está completo.</isNotComplete>
+  <elementLocated>Parent element is</elementLocated>
+  <missingElement>elemento ausente. o conteúdo do elemento:</missingElement>
+  <invalidValue>conteúdo ausente ou inválido.</invalidValue>
+  <notValidFor>não é um valor válido para</notValidFor>
+  <xsdErrorIs>XSD error is:</xsdErrorIs>
+  <inElement>no elemento</inElement>
+  <enum1>valor</enum1>
+  <enum2>não é válido para o campo </enum2>
+  <enum3>a lista de valores é :</enum3>
+
+  <!-- INSPIRE view labels and help -->
+  <url>Recursos online</url>
+  <identifier>identificador de recursos</identifier>
+  <rsIdentifier>Sistema de referência</rsIdentifier>
+  <referenceDate>informação temporal</referenceDate>
+  <creationDate>data de criação</creationDate>
+  <hierarchyLevel>Tipo de recurso</hierarchyLevel>
+  <publicationDate>data de publicação</publicationDate>
+  <revisionDate>data de revisão</revisionDate>
+  <temporalRangeSection>extensão temporal</temporalRangeSection>
+  <beginPosition>começar</beginPosition>
+  <endPosition>fim</endPosition>
+  <conformity>conformidade</conformity>
+  <conformity_title>título</conformity_title>
+  <conformity_date>Data</conformity_date>
+  <explanation>Explicação</explanation>
+  <pass>Conformidade</pass>
+  <indeterminatePosition>posição indeterminada</indeterminatePosition>
+  <pointOfContact>contacto para o recurso</pointOfContact>
+  <metadataPointOfContact>Contacto para os matadados</metadataPointOfContact>
+  <organisationName>nome da organização</organisationName>
+  <electronicMailAddress>Email</electronicMailAddress>
+  <role>perfil</role>
+  <encoding>Formato</encoding>
+  <inspireTheme>temas INSPIRE</inspireTheme>
+  <inspireThemeURI>temas INSPIRE</inspireThemeURI>
+  <format>Formato</format>
+  <format_version>Versão</format_version>
+  <format_specification>Especificação</format_specification>
+  <lineage>linhagem</lineage>
+  <spatialResolution>resolução espacial(escala)</spatialResolution>
+  <spatialDistance>resolução espacial (distância)</spatialDistance>
+  <accessConstraints>restrições de acesso</accessConstraints>
+  <useConstraints>restrições ao uso</useConstraints>
+  <useLimitation>limitações ao uso</useLimitation>
+  <add-resource-id>gerar identificador de recurso</add-resource-id>
+  <add-resource-idHelp>componha o identificador de recursos usando o catálago e o identificador de metadados
+   (eg. http://www.organization.org/catalogue/5391bf69-44bc-4ea0-8cc0-6cf6c3bc81ae).
+  </add-resource-idHelp>
+  <add-extent-from-geokeywords>gerar extensão das palavras-chave</add-extent-from-geokeywords>
+  <add-extent-from-geokeywordsHelp>analise cada palavra-chave de tipo geográfico e adicione a extensão correspondente.
+  </add-extent-from-geokeywordsHelp>
+  <classificationSection>classificação de dados e serviços</classificationSection>
+  <temporalSection>referência temporal</temporalSection>
+  <restrictionsSection> restrições no acesso e uso</restrictionsSection>
+  <metadataSection>informação de metadados</metadataSection>
+  <responsibleOrganisationSection>organização responsável (s)</responsibleOrganisationSection>
+  <qualityAndValiditySection>qualidade e validade</qualityAndValiditySection>
+  <spatialRepresentationType>tipo de representação espacial</spatialRepresentationType>
+  <topicCategory>categoria temática</topicCategory>
+  <metadataLanguage>linguagem de metadados</metadataLanguage>
+  <inspireServiceTaxonomy>taxonomia de serviço INSPIRE</inspireServiceTaxonomy>
+  <otherConstraints>outras restrições</otherConstraints>
+  <operatesOn>recurso associado</operatesOn>
+  <extent>caixa delimitadora geográfica</extent>
+  <freeTextKeywords>outras palavras-chaves</freeTextKeywords>
+  <resource_url>URL</resource_url>
+  <resource_protocol>Protocolo</resource_protocol>
+
+  <addCrs>Sistema de referência</addCrs>
+  <addCrs3763>EPSG:3763 (ETRS89/ PT-TM06) </addCrs3763>
+  <addCrs4207>EPSG:4207 (Datum Lisboa/ Coordenadas Geográficas) </addCrs4207>
+  <addCrs4258>EPSG:4258 (ETRS89/ Coordenadas Geográficas)</addCrs4258>
+  <addCrs4274>EPSG:4274 (Datum 73/ Coordenadas Geográficas)</addCrs4274>
+  <addCrs5018>EPSG:5018 (Datum Lisboa/ Hayford-Gauss)</addCrs5018>
+  <addCrs20790>EPSG:20790 (Datum Lisboa/Hayford-Gauss com falsa origem-Coordenadas Militares)</addCrs20790>
+  <addCrs27493>EPSG:27493 (Datum 73/ Hayford-Gauss)</addCrs27493>
+  <addCrs5014>EPSG:5014 (ITRF93/PTRA08-UTM zona 25N-Grupo Ocidental do Arquipélago dos Açores)</addCrs5014>
+  <addCrs5015>EPSG:5015 (ITRF93/PTRA08-UTM zona 26N-Grupo Central e Oriental do Arquipélago dos Açores)</addCrs5015>
+  <addCrs2188>EPSG:2188 (Datum Observatório - Flores-Grupo Ocidental do Arquipélago dos Açores)</addCrs2188>
+  <addCrs2189>EPSG:2189 (Datum Base SW - Graciosa-Grupo Central do Arquipélago dos Açores)</addCrs2189>
+  <addCrs5013>EPSG:5013 (ITRF93/ Coordenadas Geográficas)</addCrs5013>
+  <addCrs2190>EPSG:2190 (Datum S. Braz - S. Miguel-Grupo Oriental do Arquipélago d3857os Açores)</addCrs2190>
+  <addCrs3061>EPSG:3061 (Datum S. Braz - S. Miguel-Grupo Oriental do Arquipélago dos Açores)</addCrs3061>
+  <addCrs5016>EPSG:5016 (ITRF93/ PTRA08 - UTM zona 28N-Madeira, Porto Santo, Desertas e Selvagens)</addCrs5016>
+  <addCrs4326>EPSG:4326 (WGS 84/Coordenadas Geográficas)</addCrs4326>
+  <addCrs3857>EPSG:3857 (WGS 84/Pseudo-Mercator)</addCrs3857>
+  <addCrsOther>Outro</addCrsOther>
+  <!--
+  <addCrs4936>ETRS89-XYZ</addCrs4936>
+  <addCrs4937>ETRS89-GRS80h</addCrs4937>
+  <addCrs4258>ETRS89-GRS80</addCrs4258>
+  <addCrs3035>ETRS89-LAEA</addCrs3035>
+  <addCrs3034>ETRS89-LCC</addCrs3034>
+  <addCrs3038>ETRS89-TM26N</addCrs3038>
+  <addCrs3039>ETRS89-TM27N</addCrs3039>
+  <addCrs3040>ETRS89-TM28N</addCrs3040>
+  <addCrs3041>ETRS89-TM29N</addCrs3041>
+  <addCrs3042>ETRS89-TM30N</addCrs3042>
+  <addCrs3043>ETRS89-TM31N</addCrs3043>
+  <addCrs3044>ETRS89-TM32N</addCrs3044>
+  <addCrs3045>ETRS89-TM33N</addCrs3045>
+  <addCrs3046>ETRS89-TM34N</addCrs3046>
+  <addCrs3047>ETRS89-TM35N</addCrs3047>
+  <addCrs3048>ETRS89-TM36N</addCrs3048>
+  <addCrs3049>ETRS89-TM37N</addCrs3049>
+  <addCrs3050>ETRS89-TM38N</addCrs3050>
+  <addCrs3051>ETRS89-TM39N</addCrs3051>
+  <addCrs5730>EVRS</addCrs5730>
+  <addCrs7409>ETRS89-GRS80-EVRS</addCrs7409>
+  -->
+  
+  <!-- String for INSPIRE SDS tab -->
+
+  <inspire_sds_cc1>classe 1 de conformidade: invocável</inspire_sds_cc1>
+  <inspire_sds_cc2>classe 2 de coformidade: interoperável</inspire_sds_cc2>
+  <inspire_sds_cc3>classe 3 de conformidade: harmonizado</inspire_sds_cc3>
+  <sds-category>Categoria</sds-category>
+  <inspire_add_pass>add pass element</inspire_add_pass>
+  <sds-add-dataquality>adicionar elementos de qualidade de dados</sds-add-dataquality>
+  <sds-add-dataqualityHelp>TG4: para cada serviço de dados espaciais, deve haver apenas um e apenas um conjunto
+    de informações de qualidade (dataQualityInfo element) scoped to “service”.
+  </sds-add-dataqualityHelp>
+  <sds-add-tech-spec>adicione uma especificação técnica</sds-add-tech-spec>
+  <sds-add-tech-specHelp>TG8: a especificação de elementos metadados deve se referir ou conter pelo menos 
+    uma especificação técnica da qual o serviço de dados espaciais invocável está em total conformidade,
+    fornecendo todos os elementos técnicos necessários, para realmente invoke o seu serviço e permitir o seu 
+    uso.
+  </sds-add-tech-specHelp>
+  <sds-tech-spec>especificação técnica</sds-tech-spec>
+  <conformity_desc>Tech spec title</conformity_desc>
+  <conformity_linkage>Tech spec URL</conformity_linkage>
+
+
+  <sds-section-qos>qualidade do serviço</sds-section-qos>
+  <sds-add-qualityofservice>adicione critérios de qualidades ausentes de serviço</sds-add-qualityofservice>
+  <sds-add-qualityofserviceHelp>INSPIRE SDS requere três qualidades of service criteria to be
+    reported in the metadata: Availability, Performance and Capacity. This button will add the
+    missing criteria.
+  </sds-add-qualityofserviceHelp>
+  <qos_measure>medida:</qos_measure>
+  <qos_uom>UOM</qos_uom>
+  <qos_description>Descrição</qos_description>
+  <qos_value>Valor</qos_value>
+  <sds-section-crs>sistema de referência</sds-section-crs>
+
+  <sds-fix-category>corrigir o </sds-fix-category>
+  <sds-fix-categoryHelp>(Rec1) substituir gco:CharacterString with gmx:Anchor in the description
+    metadata element.
+  </sds-fix-categoryHelp>
+
+  <sds-accesspoint>ponto de acesso URL</sds-accesspoint>
+  <sds-add-accesspoint>adicionar ponto de acesso</sds-add-accesspoint>
+
+  <sds-endpoint>Endpoint URL</sds-endpoint>
+  <sds-add-endpoint>adicionar Endpoint</sds-add-endpoint>
+
+  <sds-addNoConstraints>sem limitação</sds-addNoConstraints>
+  <sds-addNoConstraintsHelp>adicionar elemento que documenta que não há limitações para este 
+    serviço.
+  </sds-addNoConstraintsHelp>
+  <sds-addUnknownConstraints>limitações desconhecidas</sds-addUnknownConstraints>
+  <sds-addConstraints>restrições customizáveis</sds-addConstraints>
+
+  <sds>
+    <noConditionsApply>nenuma condição se aplica</noConditionsApply>
+    <conditionsUnknown>condições desconhecidas</conditionsUnknown>
+  </sds>
+
+  <sds-limitation>Limitações</sds-limitation>
+
+  <sds-section-custodian>custodiante responsável</sds-section-custodian>
+  <sds-addOperation>adicionar operação</sds-addOperation>
+  
+  
+  <!-- MIG view labels and help -->
+  <identificationInfoMIG>Identificação</identificationInfoMIG>  
+  <distributionInfoMIG>Distribuição</distributionInfoMIG>
+  <extentInfoMIG>Extensão</extentInfoMIG>
+  <metadataInfoMIG>Metametadados</metadataInfoMIG>
+  <qualityInfoMIG>Qualidade</qualityInfoMIG>
+  <referenceSystemInfoMIG>Sistema de Referência</referenceSystemInfoMIG>
+  
+  <datasetIndentification>Identificação do CDG</datasetIndentification>
+  <servicetIndentification>Identificação do Serviço</servicetIndentification>
+  <resourceReferenceDate>Data de referência</resourceReferenceDate>
+  <credit>Crédito</credit>
+  <credits>Créditos</credits>
+  <resourceIdentifier>Identificador do recurso</resourceIdentifier>
+  <resourcePointOfContact>Organização responsável</resourcePointOfContact>
+  <freeKeywords>Palavras-chaves</freeKeywords>
+  <resourceConstraints>Restrições</resourceConstraints>
+  <coupledResources>Recurso Associado</coupledResources>
+  <operations>Operações</operations>
+  <containsOperations>Operação</containsOperations>
+  <addOperation>Adicionar operação</addOperation>
+  
+  <distributionFormat>Formato de distribuição</distributionFormat>
+  <addEncoding>adicionar formato</addEncoding>
+ 
+  <resourceLocator>Localizador do recurso</resourceLocator> 
+  <addUrl>adicionar recurso</addUrl>
+  
+  <distributorResponsible>Responsável pela distribuição</distributorResponsible>
+  <addDistributor>adicionar responsável</addDistributor>
+  
+  <extentInfo>Extensão</extentInfo>
+  
+  <migRSIdentifier>Identificador</migRSIdentifier>
+  <code>Código</code>
+  <codeSpace>Codespace</codeSpace>  
+  
+  <metadataResponsible>Responsável pelos metadados</metadataResponsible>
+  <metadataDate>Data dos metadados</metadataDate>
+  <metadataIdentifier>Identificador dos metadados</metadataIdentifier>
+  <metadataLanguageMIG>Idioma dos metadados</metadataLanguageMIG>
+  <metadataCharacterSet>Codificação de caracteres dos metadados</metadataCharacterSet>
+  <metadataStandardMIG>Designação da norma e perfil dos metadados</metadataStandardMIG>
+  <qualitySectionMIG>Qualidade</qualitySectionMIG>
+  
+  <qualityInfo>Qualidade</qualityInfo>
+  <scope>Nível Hierárquico</scope>
+</strings>
