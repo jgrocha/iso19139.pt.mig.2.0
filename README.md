@@ -157,9 +157,9 @@ Os três artefactos podem ser publicados de acordo com o seguinte exemplo, em qu
 
 ```bash
 -- trazer os artefactos para o servidor
-wget https://braga.geomaster.pt/~jgr/geonetwork.war
-wget https://braga.geomaster.pt/~jgr/iso19139.pt.mig.2.0.tgz
-wget https://braga.geomaster.pt/~jgr/gn-schema-iso19139.pt.mig.2.0-4.4.7-0.jar
+-- wget/scp geonetwork.war
+-- wget/scp iso19139.pt.mig.2.0.tgz
+-- wget/scp gn-schema-iso19139.pt.mig.2.0-4.4.7-0.jar
 -- publicar
 sudo cp geonetwork.war /var/lib/tomcat9/webapps/
 sudo su
